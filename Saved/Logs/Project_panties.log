@@ -1,9 +1,9 @@
-﻿Log file open, 06/13/16 22:01:11
+﻿Log file open, 06/14/16 21:44:07
 LogInit:Display: Running engine for game: Project_panties
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(235268812) SRandInit(235268817).
+LogInit:Display: RandInit(545521420) SRandInit(545522182).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.069060
+LogStats: Stats thread started at 0.504099
 LogInit: Version: 4.12.2-3005592+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3005592
@@ -44,929 +44,607 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.06.13-19.01.11:297][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.13-19.01.11:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.06.13-19.01.11:303][  0]LogInit: Computer: OVERMIND
-[2016.06.13-19.01.11:303][  0]LogInit: User: User
-[2016.06.13-19.01.11:303][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.06.13-19.01.11:303][  0]LogInit: High frequency timer resolution =3.320341 MHz
-[2016.06.13-19.01.11:303][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.06.13-19.01.11:303][  0]LogMemory: Platform Memory Stats for Windows
-[2016.06.13-19.01.11:303][  0]LogMemory: Process Physical Memory: 191.08 MB used, 191.08 MB peak
-[2016.06.13-19.01.11:303][  0]LogMemory: Process Virtual Memory: 196.25 MB used, 196.25 MB peak
-[2016.06.13-19.01.11:303][  0]LogMemory: Physical Memory: 3282.14 MB used, 16318.52 MB total
-[2016.06.13-19.01.11:303][  0]LogMemory: Virtual Memory: 524.23 MB used, 8388608.00 MB total
-[2016.06.13-19.01.11:340][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
-[2016.06.13-19.01.11:666][  0]LogD3D11RHI: D3D11 adapters:
-[2016.06.13-19.01.11:673][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2016.06.13-19.01.11:673][  0]LogD3D11RHI:       3051/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2016.06.13-19.01.11:673][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.06.13-19.01.11:676][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.06.13-19.01.11:676][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2016.06.13-19.01.11:676][  0]LogWindows: EnumDisplayDevices:
-[2016.06.13-19.01.11:676][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2016.06.13-19.01.11:677][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
-[2016.06.13-19.01.11:677][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.13-19.01.11:677][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.13-19.01.11:678][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.13-19.01.11:678][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.13-19.01.11:678][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
-[2016.06.13-19.01.11:678][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.06.13-19.01.11:678][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.06.13-19.01.11:679][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2016.06.13-19.01.11:679][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2016.06.13-19.01.11:679][  0]LogD3D11RHI:   Driver Version: Crimson 16.3.2 (internal:16.150.2211.0, unified:16.150.2211.0)
-[2016.06.13-19.01.11:679][  0]LogD3D11RHI:      Driver Date: 3-21-2016
-[2016.06.13-19.01.11:679][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.06.13-19.01.11:683][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.06.13-19.01.11:693][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2016.06.13-19.01.11:693][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/UEProjects/project_panties/Intermediate/Shaders/WorkingDirectory/5504/).
-[2016.06.13-19.01.11:693][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/177823CA4002E38DE92D2DA7B017C26B/'.
-[2016.06.13-19.01.11:693][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.06.13-19.01.14:362][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.06.13-19.01.14:369][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.06.13-19.01.14:376][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.06.13-19.01.14:384][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.06.13-19.01.14:392][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.06.13-19.01.14:398][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.06.13-19.01.14:405][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.06.13-19.01.14:411][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.06.13-19.01.14:416][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.06.13-19.01.14:423][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.06.13-19.01.14:429][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.06.13-19.01.14:442][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.06.13-19.01.14:442][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.06.13-19.01.14:443][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.06.13-19.01.14:462][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.06.13-19.01.14:468][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.06.13-19.01.14:474][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.06.13-19.01.14:480][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.06.13-19.01.14:486][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.06.13-19.01.14:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.06.13-19.01.14:565][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.06.13-19.01.14:602][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/User/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.06.13-19.01.14:602][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.06.13-19.01.14:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEProjects/project_panties/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.06.13-19.01.14:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.06.13-19.01.14:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEProjects/project_panties/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.06.13-19.01.14:602][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.06.13-19.01.14:615][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.06.13-19.01.14:626][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.06.13-19.01.14:768][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.13-19.01.14:769][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.06.13-19.01.14:903][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.06.13-19.01.14:903][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.06.13-19.01.14:903][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.06.13-19.01.15:128][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
-[2016.06.13-19.01.15:137][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.006426 seconds
-[2016.06.13-19.01.15:142][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.06.13-19.01.15:142][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
-[2016.06.13-19.01.15:142][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.06.13-19.01.15:149][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.06.13-19.01.15:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.13-19.01.15:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.13-19.01.15:899][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.06.13-19.01.16:103][  0]SourceControl: Info Source control is disabled
-[2016.06.13-19.01.16:103][  0]SourceControl: Info Source control is disabled
-[2016.06.13-19.01.16:115][  0]SourceControl: Info Source control is disabled
-[2016.06.13-19.01.16:125][  0]SourceControl: Info Source control is disabled
-[2016.06.13-19.01.16:367][  0]LogEngine: Initializing Engine...
-[2016.06.13-19.01.16:368][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.06.13-19.01.16:369][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.06.13-19.01.16:479][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.06.13-19.01.16:490][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.01.16:504][  0]LogInit: FAudioDevice initialized.
-[2016.06.13-19.01.16:525][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/User/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.06.13-19.01.16:529][  0]LogInit: Texture streaming: Enabled
-[2016.06.13-19.01.16:548][  0]LogInit: Transaction tracking system initialized
-[2016.06.13-19.01.16:575][  0]BlueprintLog: New page: Editor Load
-[2016.06.13-19.01.16:641][  0]LocalizationService: Info Localization service is disabled
-[2016.06.13-19.01.16:704][  0]LogConsoleResponse:Display: 
-[2016.06.13-19.01.16:789][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.06.13-19.01.16:789][  0]LogCook:Display: Mobile HDR setting 1
-[2016.06.13-19.01.16:889][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Content/' took 0.01s
-[2016.06.13-19.01.16:889][  0]SourceControl: Info Source control is disabled
-[2016.06.13-19.01.16:889][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.13-19.01.16:889][  0]LightingResults: New page: Lighting Build
-[2016.06.13-19.01.16:892][  0]MapCheck: New page: Map Check
-[2016.06.13-19.01.16:892][  0]LightingResults: New page: Lighting Build
-[2016.06.13-19.01.17:060][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.01.17:064][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.13-19.01.17:083][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.13-19.01.17:124][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.94ms to complete.
-[2016.06.13-19.01.17:124][  0]LogFileHelpers: Loading map 'Template_Default' took 0.234
-[2016.06.13-19.01.17:250][  0]LogCollectionManager: Loaded 0 collections in 0.001721 seconds
-[2016.06.13-19.01.17:296][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Saved/Collections/' took 0.01s
-[2016.06.13-19.01.17:296][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Content/Developers/User/Collections/' took 0.01s
-[2016.06.13-19.01.17:296][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Content/Collections/' took 0.01s
-[2016.06.13-19.01.17:296][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.06.13-19.01.17:303][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2047 classes and 369 folders.
-[2016.06.13-19.01.17:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.06.13-19.01.17:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.06.13-19.01.17:307][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.06.13-19.01.17:311][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.13-19.01.17:359][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.06.13-19.01.17:363][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.06.13-19.01.17:374][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.06.13-19.01.17:375][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.06.13-19.01.17:400][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.06.13-19.01.17:400][  0]LogLoad: Full Startup: 6.73 seconds (BP compile: 0.02 seconds)
-[2016.06.13-19.01.17:400][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.06.13-19.01.17:411][  0]LogOcInput: OculusInput pre-init called
-[2016.06.13-19.01.17:428][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.06.13-19.01.17:549][  0]LogRenderer: Reallocating scene render targets to support 1208x580 (Frame:2).
-[2016.06.13-19.01.17:727][  1]LogAssetRegistry: Asset discovery search completed in 2.6202 seconds
-[2016.06.13-19.01.17:727][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.06.13-19.01.17:727][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.06.13-19.01.27:649][953]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
-[2016.06.13-19.18.10:905][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.18.10:906][565]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:18:10 AM)
-[2016.06.13-19.18.10:907][565]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.18.10:908][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001372s)
-[2016.06.13-19.18.10:908][565]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.18.10:908][565]LogPlayLevel: PIE: World Init took: (0.000487s)
-[2016.06.13-19.18.10:909][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002017s)
-[2016.06.13-19.18.10:943][565]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.18.10:956][565]LogInit: FAudioDevice initialized.
-[2016.06.13-19.18.11:046][565]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.18.11:048][565]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.18.11
-[2016.06.13-19.18.11:048][565]LogWorld: Bringing up level for play took: 0.000924
-[2016.06.13-19.18.11:052][565]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2016.06.13-19.18.11:053][565]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.727
-[2016.06.13-19.18.24:710][138]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.18.24:797][138]BlueprintEditorCompileResults: Info [1034.14] Compile of BP_MainCharacter successful! [in 87 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.18.42:625][236]BlueprintLog: New page: Compile BP_FPSController
-[2016.06.13-19.18.42:727][236]BlueprintEditorCompileResults: Info [1052.07] Compile of BP_FPSController successful! [in 102 ms] (/Game/Blueprints/Core/BP_FPSController.BP_FPSController)
-[2016.06.13-19.18.55:054][679]BlueprintLog: New page: Compile BP_Weapon
-[2016.06.13-19.18.55:166][679]BlueprintEditorCompileResults: Info [1064.51] Compile of BP_Weapon successful! [in 112 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
-[2016.06.13-19.18.55:554][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
-[2016.06.13-19.18.55:561][719]LogSavePackage: Save=4.88ms
-[2016.06.13-19.18.55:561][719]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_Weapon07D634AA45627B03B39AA2B3E4C063BB.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
-[2016.06.13-19.18.55:562][719]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
-[2016.06.13-19.18.55:577][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainCharacter" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset" SILENT=true
-[2016.06.13-19.18.55:607][719]LogSavePackage: Save=27.94ms
-[2016.06.13-19.18.55:607][719]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainCharacter7FD6FC5A4A7E5BC9349A7FAB6D4FA2DA.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset'
-[2016.06.13-19.18.55:608][719]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset
-[2016.06.13-19.18.55:609][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_FPSController" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset" SILENT=true
-[2016.06.13-19.18.55:638][719]LogSavePackage: Save=26.71ms
-[2016.06.13-19.18.55:638][719]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_FPSController631DDE7B482D613A4E7E38BBA17BC3C1.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset'
-[2016.06.13-19.18.55:639][719]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset
-[2016.06.13-19.18.57:119][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.18.57:119][895]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:18:57 AM)
-[2016.06.13-19.18.57:119][895]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.18.57:120][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001217s)
-[2016.06.13-19.18.57:121][895]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.18.57:121][895]LogPlayLevel: PIE: World Init took: (0.000633s)
-[2016.06.13-19.18.57:121][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002070s)
-[2016.06.13-19.18.57:142][895]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.18.57:155][895]LogInit: FAudioDevice initialized.
-[2016.06.13-19.18.57:197][895]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.18.57:198][895]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.18.57
-[2016.06.13-19.18.57:198][895]LogWorld: Bringing up level for play took: 0.000990
-[2016.06.13-19.18.57:200][895]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.58
-[2016.06.13-19.19.55:542][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.19.55:542][817]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:19:55 AM)
-[2016.06.13-19.19.55:542][817]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.19.55:543][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001195s)
-[2016.06.13-19.19.55:543][817]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.19.55:544][817]LogPlayLevel: PIE: World Init took: (0.000434s)
-[2016.06.13-19.19.55:544][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001772s)
-[2016.06.13-19.19.55:566][817]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.19.55:579][817]LogInit: FAudioDevice initialized.
-[2016.06.13-19.19.55:619][817]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.19.55:620][817]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.19.55
-[2016.06.13-19.19.55:620][817]LogWorld: Bringing up level for play took: 0.000957
-[2016.06.13-19.19.55:622][817]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.157
-[2016.06.13-19.20.18:637][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.20.18:637][561]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:20:18 AM)
-[2016.06.13-19.20.18:638][561]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.20.18:639][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001210s)
-[2016.06.13-19.20.18:639][561]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.20.18:639][561]LogPlayLevel: PIE: World Init took: (0.000432s)
-[2016.06.13-19.20.18:639][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001786s)
-[2016.06.13-19.20.18:661][561]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.20.18:673][561]LogInit: FAudioDevice initialized.
-[2016.06.13-19.20.18:719][561]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.20.18:720][561]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.20.18
-[2016.06.13-19.20.18:720][561]LogWorld: Bringing up level for play took: 0.000972
-[2016.06.13-19.20.18:722][561]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.944
-[2016.06.13-19.20.32:403][195]Cmd: SELECT NONE
-[2016.06.13-19.20.57:219][137]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.20.57:298][137]BlueprintEditorCompileResults: Info [1186.65] Compile of BP_BaseProjectile successful! [in 79 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.20.58:886][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.20.58:886][325]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:20:58 AM)
-[2016.06.13-19.20.58:886][325]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.20.58:887][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001202s)
-[2016.06.13-19.20.58:887][325]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.20.58:887][325]LogPlayLevel: PIE: World Init took: (0.000435s)
-[2016.06.13-19.20.58:888][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001784s)
-[2016.06.13-19.20.58:910][325]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.20.58:922][325]LogInit: FAudioDevice initialized.
-[2016.06.13-19.20.58:964][325]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.20.58:965][325]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.20.58
-[2016.06.13-19.20.58:965][325]LogWorld: Bringing up level for play took: 0.000938
-[2016.06.13-19.20.58:967][325]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.811
-[2016.06.13-19.22.10:393][781]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.22.10:470][781]BlueprintEditorCompileResults: Info [1259.82] Compile of BP_BaseProjectile successful! [in 76 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.22.11:526][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.22.11:526][893]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:22:11 AM)
-[2016.06.13-19.22.11:526][893]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.22.11:528][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001512s)
-[2016.06.13-19.22.11:528][893]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.22.11:528][893]LogPlayLevel: PIE: World Init took: (0.000472s)
-[2016.06.13-19.22.11:528][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002129s)
-[2016.06.13-19.22.11:550][893]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.22.11:563][893]LogInit: FAudioDevice initialized.
-[2016.06.13-19.22.11:606][893]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.22.11:607][893]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.22.11
-[2016.06.13-19.22.11:607][893]LogWorld: Bringing up level for play took: 0.000999
-[2016.06.13-19.22.11:609][893]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.168
-[2016.06.13-19.22.16:533][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:533][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:534][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:534][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:534][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:534][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:534][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:534][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:535][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:535][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:535][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.16:535][421]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:945][574]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.06.13-19.22.17:946][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:946][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:946][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:946][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:947][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:947][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:950][574]LogPlayLevel: [PlayLevel] Compiling BP_BaseProjectile before play...
-[2016.06.13-19.22.17:961][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:961][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:961][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:961][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:961][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.17:961][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:012][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:012][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:012][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:012][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:013][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:013][574]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.18:014][574]LogPlayLevel: PlayLevel: Blueprint regeneration took 69 ms (2 blueprints)
-[2016.06.13-19.22.18:017][574]LogPlayLevel: [PlayLevel] Compiling BP_MainCharacter before play...
-[2016.06.13-19.22.18:087][574]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (3 blueprints)
-[2016.06.13-19.22.18:089][574]LogPlayLevel: [PlayLevel] Compiling BP_FPSController before play...
-[2016.06.13-19.22.18:150][574]LogPlayLevel: PlayLevel: Blueprint regeneration took 205 ms (3 blueprints)
-[2016.06.13-19.22.18:166][574]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:22:18 AM)
-[2016.06.13-19.22.18:166][574]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.22.18:168][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001343s)
-[2016.06.13-19.22.18:168][574]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.22.18:168][574]LogPlayLevel: PIE: World Init took: (0.000442s)
-[2016.06.13-19.22.18:168][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001933s)
-[2016.06.13-19.22.18:190][574]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.22.18:203][574]LogInit: FAudioDevice initialized.
-[2016.06.13-19.22.18:245][574]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.22.18:246][574]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.22.18
-[2016.06.13-19.22.18:246][574]LogWorld: Bringing up level for play took: 0.001000
-[2016.06.13-19.22.18:248][574]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.471
-[2016.06.13-19.22.19:034][657]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_0.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.19:034][657]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_0.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.20:590][833]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.20:591][833]PIE:Warning: Warning Invalid Simulate Options: Body (BP_BaseProjectile_C_1.Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2016.06.13-19.22.35:753][553]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.06.13-19.22.35:757][553]LogPlayLevel: [PlayLevel] Compiling BP_BaseProjectile before play...
-[2016.06.13-19.22.35:819][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 66 ms (2 blueprints)
-[2016.06.13-19.22.35:822][553]LogPlayLevel: [PlayLevel] Compiling BP_MainCharacter before play...
-[2016.06.13-19.22.35:890][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 137 ms (3 blueprints)
-[2016.06.13-19.22.35:892][553]LogPlayLevel: [PlayLevel] Compiling BP_FPSController before play...
-[2016.06.13-19.22.35:954][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 200 ms (3 blueprints)
-[2016.06.13-19.22.35:970][553]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:22:35 AM)
-[2016.06.13-19.22.35:970][553]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.22.35:972][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001338s)
-[2016.06.13-19.22.35:972][553]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.22.35:972][553]LogPlayLevel: PIE: World Init took: (0.000466s)
-[2016.06.13-19.22.35:972][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001953s)
-[2016.06.13-19.22.35:994][553]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.22.36:006][553]LogInit: FAudioDevice initialized.
-[2016.06.13-19.22.36:047][553]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.22.36:048][553]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.22.36
-[2016.06.13-19.22.36:048][553]LogWorld: Bringing up level for play took: 0.000971
-[2016.06.13-19.22.36:050][553]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.273
-[2016.06.13-19.22.45:434][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.22.45:434][569]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:22:45 AM)
-[2016.06.13-19.22.45:434][569]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.22.45:435][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001225s)
-[2016.06.13-19.22.45:436][569]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.22.45:436][569]LogPlayLevel: PIE: World Init took: (0.000435s)
-[2016.06.13-19.22.45:436][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001809s)
-[2016.06.13-19.22.45:458][569]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.22.45:470][569]LogInit: FAudioDevice initialized.
-[2016.06.13-19.22.45:510][569]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.22.45:511][569]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.22.45
-[2016.06.13-19.22.45:511][569]LogWorld: Bringing up level for play took: 0.001009
-[2016.06.13-19.22.45:513][569]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.264
-[2016.06.13-19.23.01:867][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.23.01:867][257]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:23:01 AM)
-[2016.06.13-19.23.01:867][257]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.23.01:868][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001210s)
-[2016.06.13-19.23.01:869][257]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.23.01:869][257]LogPlayLevel: PIE: World Init took: (0.000461s)
-[2016.06.13-19.23.01:869][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001819s)
-[2016.06.13-19.23.01:890][257]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.23.01:903][257]LogInit: FAudioDevice initialized.
-[2016.06.13-19.23.01:946][257]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.23.01:947][257]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.23.01
-[2016.06.13-19.23.01:947][257]LogWorld: Bringing up level for play took: 0.001022
-[2016.06.13-19.23.01:949][257]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.172
-[2016.06.13-19.23.46:815][629]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.014
-[2016.06.13-19.23.46:816][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_BaseProjectile] ([1] browsable assets)...
-[2016.06.13-19.23.46:843][629]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile]
-[2016.06.13-19.23.46:843][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_BaseProjectile]
-[2016.06.13-19.23.46:843][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseProjectile" FILE="D:/UEProjects/project_panties/Saved/Autosaves/Game/Blueprints/BP_BaseProjectile_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2016.06.13-19.23.46:867][629]LogSavePackage: Save=21.94ms
-[2016.06.13-19.23.46:867][629]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_BaseProjectile_Auto1462D565943827B45B3073294A97073F8.tmp' to 'D:/UEProjects/project_panties/Saved/Autosaves/Game/Blueprints/BP_BaseProjectile_Auto1.uasset'
-[2016.06.13-19.23.46:868][629]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Saved/Autosaves/Game/Blueprints/BP_BaseProjectile_Auto1.uasset
-[2016.06.13-19.23.46:868][629]LogFileHelpers: Auto-saving content packages took 0.052
-[2016.06.13-19.28.26:265][848]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.28.26:273][848]LogBlueprint:Warning: Compiler Warning Variable MaxSpeed is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2016.06.13-19.28.26:273][848]LogBlueprint:Warning: Compiler Warning Variable InitialSpeed is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2016.06.13-19.28.26:406][848]LogBlueprint:Warning: Compiler Warning [1635.76] Compile of BP_BaseProjectile successful, but with 2 Warning(s) [in 141 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.28.26:406][848]BlueprintEditorCompileResults:Warning: Warning Variable MaxSpeed is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2016.06.13-19.28.26:406][848]BlueprintEditorCompileResults:Warning: Warning Variable InitialSpeed is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2016.06.13-19.28.26:406][848]BlueprintEditorCompileResults:Warning: Warning [1635.76] Compile of BP_BaseProjectile successful, but with 2 Warning(s) [in 141 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.28.34:793][845]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.28.34:884][845]BlueprintEditorCompileResults: Info [1644.24] Compile of BP_BaseProjectile successful! [in 90 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.30.00:740][ 55]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.30.00:751][ 55]LogBlueprint:Error: Compiler Error Could not find a function named "SyncStats" in 'BP_BaseProjectile_C'.
-Make sure 'BP_BaseProjectile_C' has been compiled for  Sync Stats 
-[2016.06.13-19.30.00:887][ 55]BlueprintEditorCompileResults: Info [1730.24] Compile of BP_BaseProjectile successful! [in 147 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.30.07:533][848]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_CallFunction_117 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_117
-[2016.06.13-19.30.07:533][848]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_117.EdGraphPin_630''
-[2016.06.13-19.30.07:533][848]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_CallFunction_43 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_43
-[2016.06.13-19.30.07:533][848]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_43.EdGraphPin_244''
-[2016.06.13-19.30.07:533][848]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_CallFunction_155 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_155
-[2016.06.13-19.30.07:533][848]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_155.EdGraphPin_241''
-[2016.06.13-19.30.07:533][848]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_CallFunction_117 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_117
-[2016.06.13-19.30.07:533][848]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_117.EdGraphPin_628''
-[2016.06.13-19.30.07:533][848]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAction /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_InputAction_0 or K2Node_InputAction /Game/Blueprints/Core/BP_FPSController.BP_FPSController:EventGraph.K2Node_InputAction_0
-[2016.06.13-19.30.07:533][848]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAction /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_InputAction_0 or K2Node_InputAction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_InputAction_0
-[2016.06.13-19.30.07:533][848]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAction_0.EdGraphPin_101''
-[2016.06.13-19.32.01:841][372]BlueprintLog: New page: Compile BP_Weapon
-[2016.06.13-19.32.01:850][372]LogBlueprint:Error: Compiler Error Internal Compiler Error:  Tried to create a property BulletVelocity in scope GetProjectileStats, but FloatProperty /Game/Blueprints/BP_Weapon.BP_Weapon_C:GetProjectileStats.BulletVelocity already exists there.
-[2016.06.13-19.32.01:863][372]LogBlueprint:Error: Compiler Error Could not find a function named "SyncStats" in 'BP_BaseProjectile_C'.
-Make sure 'BP_BaseProjectile_C' has been compiled for  Sync Stats 
-[2016.06.13-19.32.01:923][372]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
-[2016.06.13-19.32.02:090][372]LogBlueprint:Warning: Compiler Warning [1851.45] Compile of BP_Weapon failed. 1 Fatal Issue(s) 0 Warning(s) [in 248 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
-[2016.06.13-19.32.02:090][372]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property BulletVelocity in scope GetProjectileStats, but FloatProperty /Game/Blueprints/BP_Weapon.BP_Weapon_C:GetProjectileStats.BulletVelocity already exists there.
-[2016.06.13-19.32.02:090][372]BlueprintEditorCompileResults:Warning: Warning [1851.45] Compile of BP_Weapon failed. 1 Fatal Issue(s) 0 Warning(s) [in 248 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
-[2016.06.13-19.33.00:658][283]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.33.00:748][283]BlueprintEditorCompileResults: Info [1910.11] Compile of BP_MainCharacter successful! [in 90 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.33.09:726][356]BlueprintLog: New page: Compile BP_Weapon
-[2016.06.13-19.33.09:735][356]LogBlueprint:Error: Compiler Error Internal Compiler Error:  Tried to create a property BulletVelocity in scope GetProjectileStats, but FloatProperty /Game/Blueprints/BP_Weapon.BP_Weapon_C:GetProjectileStats.BulletVelocity already exists there.
-[2016.06.13-19.33.09:861][356]LogBlueprint:Warning: Compiler Warning [1919.22] Compile of BP_Weapon failed. 1 Fatal Issue(s) 0 Warning(s) [in 134 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
-[2016.06.13-19.33.09:861][356]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property BulletVelocity in scope GetProjectileStats, but FloatProperty /Game/Blueprints/BP_Weapon.BP_Weapon_C:GetProjectileStats.BulletVelocity already exists there.
-[2016.06.13-19.33.09:861][356]BlueprintEditorCompileResults:Warning: Warning [1919.22] Compile of BP_Weapon failed. 1 Fatal Issue(s) 0 Warning(s) [in 134 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
-[2016.06.13-19.33.23:798][ 24]BlueprintLog: New page: Compile BP_Weapon
-[2016.06.13-19.33.23:893][ 24]BlueprintEditorCompileResults: Info [1933.25] Compile of BP_Weapon successful! [in 95 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
-[2016.06.13-19.33.26:462][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.33.26:462][327]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:33:26 AM)
-[2016.06.13-19.33.26:462][327]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.33.26:464][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001562s)
-[2016.06.13-19.33.26:464][327]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.33.26:465][327]LogPlayLevel: PIE: World Init took: (0.000417s)
-[2016.06.13-19.33.26:465][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002134s)
-[2016.06.13-19.33.26:488][327]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.33.26:500][327]LogInit: FAudioDevice initialized.
-[2016.06.13-19.33.26:543][327]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.33.26:544][327]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.33.26
-[2016.06.13-19.33.26:544][327]LogWorld: Bringing up level for play took: 0.000922
-[2016.06.13-19.33.26:546][327]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.779
-[2016.06.13-19.33.41:791][131]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.33.41:868][131]BlueprintEditorCompileResults: Info [1951.23] Compile of BP_BaseProjectile successful! [in 77 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.33.42:179][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseProjectile" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset" SILENT=true
-[2016.06.13-19.33.42:197][162]LogSavePackage: Save=16.04ms
-[2016.06.13-19.33.42:197][162]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_BaseProjectile947025E0430B7CB11D78DDA462141E34.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset'
-[2016.06.13-19.33.42:198][162]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset
-[2016.06.13-19.33.42:200][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
-[2016.06.13-19.33.42:213][162]LogSavePackage: Save=12.34ms
-[2016.06.13-19.33.42:213][162]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_Weapon0F8AFAB94BDD0CB4219B998E537CD813.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
-[2016.06.13-19.33.42:214][162]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
-[2016.06.13-19.33.42:228][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainCharacter" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset" SILENT=true
-[2016.06.13-19.33.42:267][162]LogSavePackage: Save=36.93ms
-[2016.06.13-19.33.42:267][162]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainCharacter6C14E7F34C3D5D64967D91A07C96DFDE.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset'
-[2016.06.13-19.33.42:268][162]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset
-[2016.06.13-19.33.42:798][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.33.42:798][224]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:33:42 AM)
-[2016.06.13-19.33.42:798][224]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.33.42:800][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001352s)
-[2016.06.13-19.33.42:800][224]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.33.42:800][224]LogPlayLevel: PIE: World Init took: (0.000432s)
-[2016.06.13-19.33.42:800][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001931s)
-[2016.06.13-19.33.42:823][224]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.33.42:835][224]LogInit: FAudioDevice initialized.
-[2016.06.13-19.33.42:876][224]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.33.42:877][224]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.33.42
-[2016.06.13-19.33.42:877][224]LogWorld: Bringing up level for play took: 0.000926
-[2016.06.13-19.33.42:879][224]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.888
-[2016.06.13-19.34.41:040][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.34.41:040][882]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:34:41 AM)
-[2016.06.13-19.34.41:040][882]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.34.41:041][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001440s)
-[2016.06.13-19.34.41:041][882]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.34.41:041][882]LogPlayLevel: PIE: World Init took: (0.000458s)
-[2016.06.13-19.34.41:041][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002049s)
-[2016.06.13-19.34.41:064][882]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.34.41:077][882]LogInit: FAudioDevice initialized.
-[2016.06.13-19.34.41:121][882]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.34.41:122][882]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.34.41
-[2016.06.13-19.34.41:122][882]LogWorld: Bringing up level for play took: 0.000953
-[2016.06.13-19.34.41:123][882]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.644
-[2016.06.13-19.34.51:211][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.34.51:211][763]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:34:51 AM)
-[2016.06.13-19.34.51:211][763]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.34.51:212][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001478s)
-[2016.06.13-19.34.51:213][763]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.34.51:213][763]LogPlayLevel: PIE: World Init took: (0.000451s)
-[2016.06.13-19.34.51:213][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002080s)
-[2016.06.13-19.34.51:235][763]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.34.51:248][763]LogInit: FAudioDevice initialized.
-[2016.06.13-19.34.51:288][763]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.34.51:289][763]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.34.51
-[2016.06.13-19.34.51:289][763]LogWorld: Bringing up level for play took: 0.000976
-[2016.06.13-19.34.51:291][763]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.476
-[2016.06.13-19.35.20:641][258]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.35.20:715][258]BlueprintEditorCompileResults: Info [2050.08] Compile of BP_BaseProjectile successful! [in 73 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.35.22:147][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.35.22:147][426]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:35:22 AM)
-[2016.06.13-19.35.22:147][426]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.35.22:149][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001241s)
-[2016.06.13-19.35.22:149][426]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.35.22:149][426]LogPlayLevel: PIE: World Init took: (0.000466s)
-[2016.06.13-19.35.22:149][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001856s)
-[2016.06.13-19.35.22:171][426]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.35.22:184][426]LogInit: FAudioDevice initialized.
-[2016.06.13-19.35.22:229][426]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.35.22:230][426]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.35.22
-[2016.06.13-19.35.22:230][426]LogWorld: Bringing up level for play took: 0.000999
-[2016.06.13-19.35.22:232][426]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.466
-[2016.06.13-19.35.34:807][913]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.35.34:896][913]BlueprintEditorCompileResults: Info [2064.26] Compile of BP_MainCharacter successful! [in 89 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.35.36:586][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.35.36:586][113]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:35:36 AM)
-[2016.06.13-19.35.36:586][113]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.35.36:587][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001356s)
-[2016.06.13-19.35.36:588][113]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.35.36:588][113]LogPlayLevel: PIE: World Init took: (0.000432s)
-[2016.06.13-19.35.36:588][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001935s)
-[2016.06.13-19.35.36:611][113]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.35.36:624][113]LogInit: FAudioDevice initialized.
-[2016.06.13-19.35.36:668][113]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.35.36:669][113]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.35.36
-[2016.06.13-19.35.36:669][113]LogWorld: Bringing up level for play took: 0.000991
-[2016.06.13-19.35.36:671][113]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.906
-[2016.06.13-19.35.59:179][790]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.35.59:322][790]BlueprintEditorCompileResults: Info [2088.68] Compile of BP_MainCharacter successful! [in 141 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.36.21:357][385]LogEditorTransaction: Undo Delete current selection
-[2016.06.13-19.36.21:620][408]LogEditorTransaction: Undo Add Node
-[2016.06.13-19.36.21:852][420]LogEditorTransaction: Undo Delete current selection
-[2016.06.13-19.36.22:205][458]LogEditorTransaction: Undo Add Node
-[2016.06.13-19.36.22:531][493]LogEditorTransaction: Undo Move Node
-[2016.06.13-19.36.22:875][530]LogEditorTransaction: Undo Promote To Variable
-[2016.06.13-19.36.23:713][626]LogEditorTransaction: Undo Create Pin Link
-[2016.06.13-19.36.28:498][196]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error Internal compiler error inside CreateExecutionSchedule (site 2); there is an issue with node/pin manipulation that was performed in this graph, please contact the Blueprints team!
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error The property associated with  Key  could not be found
-[2016.06.13-19.36.28:508][196]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Key 
-[2016.06.13-19.36.28:692][196]LogBlueprint:Warning: Compiler Warning [2118.05] Compile of BP_MainCharacter failed. 11 Fatal Issue(s) 0 Warning(s) [in 193 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error Internal compiler error inside CreateExecutionSchedule (site 2); there is an issue with node/pin manipulation that was performed in this graph, please contact the Blueprints team!
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error The property associated with  Key  could not be found
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Key 
-[2016.06.13-19.36.28:692][196]BlueprintEditorCompileResults:Warning: Warning [2118.05] Compile of BP_MainCharacter failed. 11 Fatal Issue(s) 0 Warning(s) [in 193 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.36.32:080][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseProjectile" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset" SILENT=true
-[2016.06.13-19.36.32:097][596]LogSavePackage: Save=15.99ms
-[2016.06.13-19.36.32:097][596]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_BaseProjectile660DF15047AF3D870C1F7C8EB680B7BB.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset'
-[2016.06.13-19.36.32:098][596]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset
-[2016.06.13-19.36.32:111][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainCharacter" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset" SILENT=true
-[2016.06.13-19.36.32:139][596]LogSavePackage: Save=26.71ms
-[2016.06.13-19.36.32:139][596]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainCharacterB9C0294440CBD2396C080E8BE030EDE1.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset'
-[2016.06.13-19.36.32:140][596]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset
-[2016.06.13-19.36.32:691][662]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.36.32:701][662]LogBlueprint:Error: Compiler Error Internal compiler error inside CreateExecutionSchedule (site 2); there is an issue with node/pin manipulation that was performed in this graph, please contact the Blueprints team!
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error The property associated with  Key  could not be found
-[2016.06.13-19.36.32:702][662]LogBlueprint:Error: Compiler Error ICE SetVariableOnPersistentFrame - No property found.  Key 
-[2016.06.13-19.36.32:827][662]LogBlueprint:Warning: Compiler Warning [2122.19] Compile of BP_MainCharacter failed. 11 Fatal Issue(s) 0 Warning(s) [in 135 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error Internal compiler error inside CreateExecutionSchedule (site 2); there is an issue with node/pin manipulation that was performed in this graph, please contact the Blueprints team!
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error The property associated with  Axis Value  could not be found
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Axis Value 
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error The property associated with  Key  could not be found
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Error: Error ICE SetVariableOnPersistentFrame - No property found.  Key 
-[2016.06.13-19.36.32:827][662]BlueprintEditorCompileResults:Warning: Warning [2122.19] Compile of BP_MainCharacter failed. 11 Fatal Issue(s) 0 Warning(s) [in 135 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.37.07:547][723]BlueprintLog: New page: Compile BP_MainCharacter
-[2016.06.13-19.37.07:638][723]BlueprintEditorCompileResults: Info [2157.00] Compile of BP_MainCharacter successful! [in 90 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
-[2016.06.13-19.37.08:789][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.37.08:789][854]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:37:08 AM)
-[2016.06.13-19.37.08:789][854]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.37.08:790][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001349s)
-[2016.06.13-19.37.08:791][854]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.37.08:791][854]LogPlayLevel: PIE: World Init took: (0.000437s)
-[2016.06.13-19.37.08:791][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001931s)
-[2016.06.13-19.37.08:813][854]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.37.08:826][854]LogInit: FAudioDevice initialized.
-[2016.06.13-19.37.08:867][854]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.37.08:868][854]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.37.08
-[2016.06.13-19.37.08:868][854]LogWorld: Bringing up level for play took: 0.000957
-[2016.06.13-19.37.08:870][854]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.894
-[2016.06.13-19.37.53:300][108]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.37.53:377][108]BlueprintEditorCompileResults: Info [2202.74] Compile of BP_BaseProjectile successful! [in 76 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.37.53:795][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseProjectile" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset" SILENT=true
-[2016.06.13-19.37.53:813][151]LogSavePackage: Save=16.87ms
-[2016.06.13-19.37.53:813][151]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_BaseProjectile8B9838B04AFA6D91FA4C9484C722BB95.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset'
-[2016.06.13-19.37.53:814][151]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset
-[2016.06.13-19.37.53:828][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainCharacter" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset" SILENT=true
-[2016.06.13-19.37.53:858][151]LogSavePackage: Save=28.86ms
-[2016.06.13-19.37.53:858][151]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainCharacterECD83A79462A8B884FBF5EBC84E1BEF1.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset'
-[2016.06.13-19.37.53:859][151]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset
-[2016.06.13-19.37.54:880][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.37.54:881][272]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:37:54 AM)
-[2016.06.13-19.37.54:881][272]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.37.54:882][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001248s)
-[2016.06.13-19.37.54:882][272]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.37.54:882][272]LogPlayLevel: PIE: World Init took: (0.000439s)
-[2016.06.13-19.37.54:882][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001833s)
-[2016.06.13-19.37.54:905][272]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.37.54:917][272]LogInit: FAudioDevice initialized.
-[2016.06.13-19.37.54:963][272]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.37.54:964][272]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.37.54
-[2016.06.13-19.37.54:964][272]LogWorld: Bringing up level for play took: 0.001020
-[2016.06.13-19.37.54:966][272]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.797
-[2016.06.13-19.38.00:074][870]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.38.00:149][870]BlueprintEditorCompileResults: Info [2209.51] Compile of BP_BaseProjectile successful! [in 74 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.38.00:478][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseProjectile" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset" SILENT=true
-[2016.06.13-19.38.00:497][902]LogSavePackage: Save=17.00ms
-[2016.06.13-19.38.00:497][902]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_BaseProjectile8239B9FA4F9794D9C5FFEC8FA56CBFA4.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset'
-[2016.06.13-19.38.00:498][902]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset
-[2016.06.13-19.38.01:260][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.38.01:260][992]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:38:01 AM)
-[2016.06.13-19.38.01:260][992]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.38.01:262][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001295s)
-[2016.06.13-19.38.01:262][992]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.38.01:262][992]LogPlayLevel: PIE: World Init took: (0.000430s)
-[2016.06.13-19.38.01:262][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001872s)
-[2016.06.13-19.38.01:285][992]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.38.01:296][992]LogInit: FAudioDevice initialized.
-[2016.06.13-19.38.01:343][992]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.38.01:344][992]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.38.01
-[2016.06.13-19.38.01:344][992]LogWorld: Bringing up level for play took: 0.000948
-[2016.06.13-19.38.01:346][992]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.417
-[2016.06.13-19.39.42:304][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.39.42:304][ 75]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:39:42 AM)
-[2016.06.13-19.39.42:304][ 75]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.39.42:305][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001383s)
-[2016.06.13-19.39.42:306][ 75]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.39.42:306][ 75]LogPlayLevel: PIE: World Init took: (0.000483s)
-[2016.06.13-19.39.42:306][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002015s)
-[2016.06.13-19.39.42:328][ 75]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.39.42:341][ 75]LogInit: FAudioDevice initialized.
-[2016.06.13-19.39.42:387][ 75]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.39.42:388][ 75]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.39.42
-[2016.06.13-19.39.42:388][ 75]LogWorld: Bringing up level for play took: 0.000952
-[2016.06.13-19.39.42:390][ 75]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.629
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_29.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_27.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_25.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_33.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_35.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_37.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_56.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_59.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_63.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:UserConstructionScript.K2Node_VariableSet_0
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_29.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_27.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_25.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_33.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_35.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_37.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_56.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_59.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_63.K2Node_VariableSet_1
-[2016.06.13-19.42.25:795][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:UserConstructionScript.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_VariableGet_65 or K2Node_VariableGet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:UserConstructionScript.K2Node_VariableGet_65
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.EdGraph_66:K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_29.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_27.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_25.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_33.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_35.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_37.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_56.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_59.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_63.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EdGraph_31.K2Node_VariableSet_1 or K2Node_VariableSet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:UserConstructionScript.K2Node_VariableSet_1
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Blueprints/BP_Weapon.BP_Weapon:EventGraph.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter:EventGraph.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_209:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_210:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_187:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Blueprints/Core/BP_FPSMode.BP_FPSMode:EventGraph.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:ExecuteUbergraph_BP_BaseProjectile.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Blueprints/Core/BP_MainHUD.BP_MainHUD:EventGraph.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_67:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Blueprints/Core/BP_FPSController.BP_FPSController:EventGraph.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:EventGraph.K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_188:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_212:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_211:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_213:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_214:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_215:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_216:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_Event_0 or K2Node_Event /Engine/Transient.EdGraph_217:K2Node_Event_0
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:UserConstructionScript.K2Node_VariableGet_66 or K2Node_VariableGet /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_VariableGet_66
-[2016.06.13-19.42.25:796][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile:EventGraph.K2Node_CallFunction_64 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_64
-[2016.06.13-19.42.29:656][547]BlueprintLog: New page: Compile BP_BaseProjectile
-[2016.06.13-19.42.29:732][547]BlueprintEditorCompileResults: Info [2479.10] Compile of BP_BaseProjectile successful! [in 75 ms] (/Game/Blueprints/BP_BaseProjectile.BP_BaseProjectile)
-[2016.06.13-19.42.30:923][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.13-19.42.30:924][687]PIE: New page: PIE session: Untitled_1 (Jun 14, 2016, 1:42:30 AM)
-[2016.06.13-19.42.30:924][687]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.06.13-19.42.30:925][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001346s)
-[2016.06.13-19.42.30:925][687]LogAIModule: Creating AISystem for world Untitled_1
-[2016.06.13-19.42.30:926][687]LogPlayLevel: PIE: World Init took: (0.000436s)
-[2016.06.13-19.42.30:926][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001928s)
-[2016.06.13-19.42.30:948][687]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.13-19.42.30:960][687]LogInit: FAudioDevice initialized.
-[2016.06.13-19.42.31:004][687]LogWorld: Game class is 'BP_FPSMode_C'
-[2016.06.13-19.42.31:005][687]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.13-22.42.31
-[2016.06.13-19.42.31:005][687]LogWorld: Bringing up level for play took: 0.000901
-[2016.06.13-19.42.31:007][687]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.751
-[2016.06.13-19.42.53:759][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseProjectile" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset" SILENT=true
-[2016.06.13-19.42.53:778][ 72]LogSavePackage: Save=16.84ms
-[2016.06.13-19.42.53:778][ 72]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_BaseProjectileBB1E43E040B644C884FAB78436041141.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset'
-[2016.06.13-19.42.53:779][ 72]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_BaseProjectile.uasset
-[2016.06.13-19.42.54:652][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.06.13-19.42.54:697][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.06.13-19.42.54:744][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.06.13-19.42.54:927][166]Cmd: QUIT_EDITOR
-[2016.06.13-19.42.54:970][166]LogExit: Preparing to exit.
-[2016.06.13-19.42.56:038][166]LogExit: Editor shut down
-[2016.06.13-19.42.56:038][166]LogExit: Transaction tracking system shut down
-[2016.06.13-19.42.56:148][166]LogObj: Freed 0b from 0 cluster array pools.
-[2016.06.13-19.42.56:148][166]LogExit: Object subsystem successfully closed.
-[2016.06.13-19.42.56:157][166]LogD3D11RHI: Shutdown
-[2016.06.13-19.42.56:157][166]LogD3D11RHI: CleanupD3DDevice
-[2016.06.13-19.42.56:178][166]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2016.06.13-19.42.56:187][166]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.06.13-19.42.56:188][166]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.06.13-19.42.56:677][166]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.06.13-19.42.56:678][166]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.06.13-19.42.56:721][166]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.06.13-19.42.56:722][166]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.06.13-19.42.56:831][166]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.06.13-19.42.56:832][166]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2016.06.13-19.42.56:832][166]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.06.13-19.42.56:832][166]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.06.13-19.42.56:832][166]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.06.13-19.42.56:833][166]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.06.13-19.42.56:833][166]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.06.13-19.42.56:833][166]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module Media (90)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2016.06.13-19.42.56:933][166]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module Core (64)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2016.06.13-19.42.56:935][166]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2016.06.13-19.42.56:969][166]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.06.13-19.42.56:969][166]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.06.13-19.42.56:969][166]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.06.13-19.42.56:969][166]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2016.06.13-19.42.56:985][166]LogDerivedDataCache: Shutdown
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.06.13-19.42.56:985][166]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.06.13-19.42.59:486][166]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.06.13-19.42.59:487][166]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.06.13-19.42.59:488][166]LogExit: Exiting.
-[2016.06.13-19.42.59:491][166]Log file closed, 06/13/16 22:42:59
+[2016.06.14-18.44.07:747][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.14-18.44.07:747][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.14-18.44.07:766][  0]LogInit: Computer: OVERMIND
+[2016.06.14-18.44.07:766][  0]LogInit: User: User
+[2016.06.14-18.44.07:766][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.14-18.44.07:766][  0]LogInit: High frequency timer resolution =3.320351 MHz
+[2016.06.14-18.44.07:766][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.14-18.44.07:766][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.14-18.44.07:766][  0]LogMemory: Process Physical Memory: 190.89 MB used, 190.89 MB peak
+[2016.06.14-18.44.07:766][  0]LogMemory: Process Virtual Memory: 196.23 MB used, 196.23 MB peak
+[2016.06.14-18.44.07:766][  0]LogMemory: Physical Memory: 2934.82 MB used, 16318.52 MB total
+[2016.06.14-18.44.07:766][  0]LogMemory: Virtual Memory: 524.13 MB used, 8388608.00 MB total
+[2016.06.14-18.44.07:880][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2016.06.14-18.44.08:250][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.14-18.44.08:255][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2016.06.14-18.44.08:255][  0]LogD3D11RHI:       3051/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.06.14-18.44.08:256][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.14-18.44.08:259][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.14-18.44.08:259][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2016.06.14-18.44.08:260][  0]LogWindows: EnumDisplayDevices:
+[2016.06.14-18.44.08:260][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2016.06.14-18.44.08:260][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2016.06.14-18.44.08:261][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.14-18.44.08:261][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.14-18.44.08:261][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.14-18.44.08:262][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.14-18.44.08:262][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2016.06.14-18.44.08:262][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.06.14-18.44.08:262][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.06.14-18.44.08:262][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2016.06.14-18.44.08:262][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2016.06.14-18.44.08:262][  0]LogD3D11RHI:   Driver Version: Crimson 16.3.2 (internal:16.150.2211.0, unified:16.150.2211.0)
+[2016.06.14-18.44.08:262][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.06.14-18.44.08:262][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.14-18.44.08:267][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.06.14-18.44.08:291][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.06.14-18.44.08:295][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/UEProjects/project_panties/Intermediate/Shaders/WorkingDirectory/4288/).
+[2016.06.14-18.44.08:295][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/1CA009F3452678A5C04395919E85CF29/'.
+[2016.06.14-18.44.08:295][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.14-18.44.10:859][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.14-18.44.10:867][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.14-18.44.10:875][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.14-18.44.10:883][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.14-18.44.10:892][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.14-18.44.10:900][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.14-18.44.10:907][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.14-18.44.10:915][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.14-18.44.10:921][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.14-18.44.10:929][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.14-18.44.10:936][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.14-18.44.10:951][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.14-18.44.10:951][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.14-18.44.10:953][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.14-18.44.10:978][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.14-18.44.10:984][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.14-18.44.10:990][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.14-18.44.10:997][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.14-18.44.11:003][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.14-18.44.11:003][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.14-18.44.11:126][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.14-18.44.11:272][  0]LogDerivedDataCache: Loaded boot cache 0.15s 48MB C:/Users/User/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.06.14-18.44.11:272][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.06.14-18.44.11:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEProjects/project_panties/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.14-18.44.11:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.14-18.44.11:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEProjects/project_panties/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.14-18.44.11:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.14-18.44.11:289][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.14-18.44.11:300][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.14-18.44.11:759][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.14-18.44.11:763][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.14-18.44.11:984][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.14-18.44.11:984][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.14-18.44.11:984][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.14-18.44.12:341][  0]LogAssetRegistry: FAssetRegistry took 0.0231 seconds to start up
+[2016.06.14-18.44.12:405][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.059252 seconds
+[2016.06.14-18.44.12:409][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.06.14-18.44.12:409][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.06.14-18.44.12:409][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.14-18.44.12:416][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.14-18.44.12:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.14-18.44.12:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.14-18.44.13:838][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.14-18.44.14:159][  0]SourceControl: Info Source control is disabled
+[2016.06.14-18.44.14:160][  0]SourceControl: Info Source control is disabled
+[2016.06.14-18.44.14:176][  0]SourceControl: Info Source control is disabled
+[2016.06.14-18.44.14:191][  0]SourceControl: Info Source control is disabled
+[2016.06.14-18.44.14:503][  0]LogEngine: Initializing Engine...
+[2016.06.14-18.44.14:507][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.06.14-18.44.14:508][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.06.14-18.44.14:650][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.14-18.44.14:669][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-18.44.14:728][  0]LogInit: FAudioDevice initialized.
+[2016.06.14-18.44.14:749][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/User/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.06.14-18.44.14:751][  0]LogInit: Texture streaming: Enabled
+[2016.06.14-18.44.14:780][  0]LogInit: Transaction tracking system initialized
+[2016.06.14-18.44.14:828][  0]BlueprintLog: New page: Editor Load
+[2016.06.14-18.44.14:987][  0]LocalizationService: Info Localization service is disabled
+[2016.06.14-18.44.15:096][  0]LogConsoleResponse:Display: 
+[2016.06.14-18.44.15:239][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Content/' took 0.02s
+[2016.06.14-18.44.15:239][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.14-18.44.15:239][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.14-18.44.15:418][  0]SourceControl: Info Source control is disabled
+[2016.06.14-18.44.15:420][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.14-18.44.15:422][  0]LightingResults: New page: Lighting Build
+[2016.06.14-18.44.15:430][  0]MapCheck: New page: Map Check
+[2016.06.14-18.44.15:430][  0]LightingResults: New page: Lighting Build
+[2016.06.14-18.44.15:638][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-18.44.15:657][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.14-18.44.15:671][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.14-18.44.15:709][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.412ms to complete.
+[2016.06.14-18.44.15:710][  0]LogFileHelpers: Loading map 'Template_Default' took 0.291
+[2016.06.14-18.44.15:880][  0]LogCollectionManager: Loaded 0 collections in 0.002573 seconds
+[2016.06.14-18.44.15:940][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Saved/Collections/' took 0.01s
+[2016.06.14-18.44.15:940][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Content/Developers/User/Collections/' took 0.01s
+[2016.06.14-18.44.15:940][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/project_panties/Content/Collections/' took 0.01s
+[2016.06.14-18.44.15:940][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.06.14-18.44.15:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2047 classes and 369 folders.
+[2016.06.14-18.44.15:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.14-18.44.15:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.14-18.44.15:955][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.06.14-18.44.15:960][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.14-18.44.16:071][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.06.14-18.44.16:082][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.14-18.44.16:129][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.14-18.44.16:139][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.14-18.44.16:169][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.14-18.44.16:169][  0]LogLoad: Full Startup: 9.87 seconds (BP compile: 0.05 seconds)
+[2016.06.14-18.44.16:169][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.06.14-18.44.16:182][  0]LogOcInput: OculusInput pre-init called
+[2016.06.14-18.44.16:205][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.14-18.44.16:371][  0]LogRenderer: Reallocating scene render targets to support 1208x580 (Frame:2).
+[2016.06.14-18.44.16:551][  1]LogAssetRegistry: Asset discovery search completed in 4.2323 seconds
+[2016.06.14-18.44.16:551][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.14-18.44.16:553][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001303 seconds (updated 0 objects)
+[2016.06.14-18.45.33:867][179]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.06.14-18.45.39:897][653]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_UI_MainParams_C_1' or package '/Engine/Transient'.
+[2016.06.14-18.45.39:897][653]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_UI_MainParams_C_0' or package '/Engine/Transient'.
+[2016.06.14-18.45.39:897][653]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_UI_MainParams_C_22' or package '/Engine/Transient'.
+[2016.06.14-18.45.39:897][653]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_UI_MainParams_C_21' or package '/Engine/Transient'.
+[2016.06.14-18.47.43:729][239]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/UI/UI_MainParams.UI_MainParams:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/UI/UI_MainParams.UI_MainParams_C:WidgetTree_4.HorizontalBox_0
+[2016.06.14-18.47.43:729][239]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/UI/UI_MainParams.UI_MainParams:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:UI_MainParams_C_4.WidgetTree_4.HorizontalBox_0
+[2016.06.14-18.47.43:729][239]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/UI/UI_MainParams.UI_MainParams:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/UI/UI_MainParams.UI_MainParams_C:WidgetTree_5.HorizontalBox_0
+[2016.06.14-18.47.43:729][239]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/UI/UI_MainParams.UI_MainParams:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:UI_MainParams_C_5.WidgetTree_5.HorizontalBox_0
+[2016.06.14-18.47.43:729][239]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Blueprints/UI/UI_MainParams.UI_MainParams:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2016.06.14-18.47.43:729][239]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
+[2016.06.14-18.48.13:284][ 68]BlueprintLog: New page: Compile UI_MainParams
+[2016.06.14-18.48.13:361][ 68]BlueprintEditorCompileResults: Info [0247.06] Compile of UI_MainParams successful! [in 76 ms] (/Game/Blueprints/UI/UI_MainParams.UI_MainParams)
+[2016.06.14-18.49.13:075][515]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-18.49.13:241][515]BlueprintEditorCompileResults: Info [0306.94] Compile of BP_Weapon successful! [in 166 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-18.50.05:968][655]BlueprintLog: New page: Compile BP_FPSController
+[2016.06.14-18.50.06:124][655]BlueprintEditorCompileResults: Info [0359.83] Compile of BP_FPSController successful! [in 155 ms] (/Game/Blueprints/Core/BP_FPSController.BP_FPSController)
+[2016.06.14-18.50.45:748][299]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-18.50.45:861][299]BlueprintEditorCompileResults: Info [0399.56] Compile of BP_MainHUD successful! [in 113 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-18.51.50:700][992]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-18.51.50:921][992]BlueprintEditorCompileResults: Info [0464.63] Compile of BP_Weapon successful! [in 221 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-18.52.17:137][128]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-18.52.17:230][128]BlueprintEditorCompileResults: Info [0490.93] Compile of BP_MainHUD successful! [in 92 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-18.52.51:916][233]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-18.52.52:054][233]BlueprintEditorCompileResults: Info [0525.76] Compile of BP_MainHUD successful! [in 138 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-18.52.58:800][ 27]BlueprintLog: New page: Compile BP_FPSController
+[2016.06.14-18.52.58:890][ 27]BlueprintEditorCompileResults: Info [0532.60] Compile of BP_FPSController successful! [in 89 ms] (/Game/Blueprints/Core/BP_FPSController.BP_FPSController)
+[2016.06.14-18.53.40:342][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_38.EdGraphPin_124''
+[2016.06.14-18.53.40:342][946]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Core/BP_FPSController.BP_FPSController:EventGraph.K2Node_CallFunction_1 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1
+[2016.06.14-18.53.40:342][946]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Core/BP_FPSController.BP_FPSController:EventGraph.K2Node_CallFunction_1 or K2Node_CallFunction /Game/Blueprints/Core/BP_MainHUD.BP_MainHUD:ExecuteUbergraph_BP_MainHUD.K2Node_CallFunction_1
+[2016.06.14-18.53.40:342][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_254''
+[2016.06.14-18.53.40:342][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_38.EdGraphPin_122''
+[2016.06.14-18.54.32:415][ 60]BlueprintLog: New page: Compile BP_FPSController
+[2016.06.14-18.54.32:510][ 60]BlueprintEditorCompileResults: Info [0626.22] Compile of BP_FPSController successful! [in 95 ms] (/Game/Blueprints/Core/BP_FPSController.BP_FPSController)
+[2016.06.14-18.54.32:867][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/UI_MainParams" FILE="D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset" SILENT=true
+[2016.06.14-18.54.32:874][ 94]LogSavePackage: Save=5.85ms
+[2016.06.14-18.54.32:874][ 94]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/UI_MainParams0FF89AFD40159494E760809EFE026F2F.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset'
+[2016.06.14-18.54.32:875][ 94]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset
+[2016.06.14-18.54.32:876][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
+[2016.06.14-18.54.32:926][ 94]LogSavePackage: Save=13.76ms
+[2016.06.14-18.54.32:926][ 94]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_Weapon9DDCEAE24CA0AA5DE2A966BDD7EA95DC.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
+[2016.06.14-18.54.32:927][ 94]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
+[2016.06.14-18.54.32:929][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_FPSController" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset" SILENT=true
+[2016.06.14-18.54.32:974][ 94]LogSavePackage: Save=41.99ms
+[2016.06.14-18.54.32:974][ 94]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_FPSController537B566F4F0AEB3B0672CDB95DE95247.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset'
+[2016.06.14-18.54.32:975][ 94]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset
+[2016.06.14-18.54.32:977][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainHUD" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset" SILENT=true
+[2016.06.14-18.54.32:988][ 94]LogSavePackage: Save=8.75ms
+[2016.06.14-18.54.32:988][ 94]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainHUD592BDC4F46E24CF1514E21ADCFEAA65F.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset'
+[2016.06.14-18.54.32:989][ 94]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset
+[2016.06.14-18.54.33:678][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-18.54.33:683][170]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 12:54:33 AM)
+[2016.06.14-18.54.33:683][170]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-18.54.33:685][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001717s)
+[2016.06.14-18.54.33:685][170]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-18.54.33:685][170]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2016.06.14-18.54.33:686][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002423s)
+[2016.06.14-18.54.33:708][170]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-18.54.33:722][170]LogInit: FAudioDevice initialized.
+[2016.06.14-18.54.33:790][170]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-18.54.33:791][170]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-21.54.33
+[2016.06.14-18.54.33:791][170]LogWorld: Bringing up level for play took: 0.000895
+[2016.06.14-18.54.33:798][170]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.06.14-18.54.33:808][170]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.061
+[2016.06.14-18.54.36:019][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-18.54.36:019][406]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 12:54:36 AM)
+[2016.06.14-18.54.36:019][406]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-18.54.36:021][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001503s)
+[2016.06.14-18.54.36:021][406]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-18.54.36:022][406]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2016.06.14-18.54.36:022][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002366s)
+[2016.06.14-18.54.36:044][406]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-18.54.36:057][406]LogInit: FAudioDevice initialized.
+[2016.06.14-18.54.36:102][406]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-18.54.36:103][406]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-21.54.36
+[2016.06.14-18.54.36:103][406]LogWorld: Bringing up level for play took: 0.000936
+[2016.06.14-18.54.36:105][406]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.236
+[2016.06.14-18.54.55:283][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_FPSController" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset" SILENT=true
+[2016.06.14-18.54.55:314][594]LogSavePackage: Save=29.10ms
+[2016.06.14-18.54.55:314][594]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_FPSControllerADE6C2C6492444C47B5A0B8157114745.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset'
+[2016.06.14-18.54.55:315][594]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_FPSController.uasset
+[2016.06.14-18.55.32:595][821]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-18.55.32:700][821]BlueprintEditorCompileResults: Info [0686.41] Compile of BP_MainHUD successful! [in 105 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-18.56.00:105][ 64]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-18.56.00:194][ 64]BlueprintEditorCompileResults: Info [0713.90] Compile of BP_Weapon successful! [in 88 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-18.57.00:785][158]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.14-18.57.40:923][920]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-18.57.41:070][920]BlueprintEditorCompileResults: Info [0814.78] Compile of BP_MainHUD successful! [in 146 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-18.58.57:823][ 16]BlueprintLog: New page: Compile UI_MainParams
+[2016.06.14-18.58.57:905][ 16]BlueprintEditorCompileResults: Info [0891.61] Compile of UI_MainParams successful! [in 81 ms] (/Game/Blueprints/UI/UI_MainParams.UI_MainParams)
+[2016.06.14-18.59.23:098][ 11]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-18.59.23:273][ 11]BlueprintEditorCompileResults: Info [0916.98] Compile of BP_Weapon successful! [in 174 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-18.59.35:481][451]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-18.59.35:567][451]BlueprintEditorCompileResults: Info [0929.28] Compile of BP_MainHUD successful! [in 86 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-19.01.12:072][942]BlueprintLog: New page: Compile UI_MainParams
+[2016.06.14-19.01.12:156][942]BlueprintEditorCompileResults: Info [1025.87] Compile of UI_MainParams successful! [in 84 ms] (/Game/Blueprints/UI/UI_MainParams.UI_MainParams)
+[2016.06.14-19.01.51:671][620]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-19.01.51:756][620]BlueprintEditorCompileResults: Info [1065.47] Compile of BP_MainHUD successful! [in 84 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-19.01.52:414][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/UI_MainParams" FILE="D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset" SILENT=true
+[2016.06.14-19.01.52:425][693]LogSavePackage: Save=8.72ms
+[2016.06.14-19.01.52:425][693]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/UI_MainParams8C46B5A149AB962E1BD01BA69D8F210B.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset'
+[2016.06.14-19.01.52:426][693]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset
+[2016.06.14-19.01.52:428][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
+[2016.06.14-19.01.52:445][693]LogSavePackage: Save=15.05ms
+[2016.06.14-19.01.52:445][693]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_WeaponEE01EE90498E656311909F8350399838.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
+[2016.06.14-19.01.52:446][693]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
+[2016.06.14-19.01.52:447][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainHUD" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset" SILENT=true
+[2016.06.14-19.01.52:462][693]LogSavePackage: Save=13.56ms
+[2016.06.14-19.01.52:462][693]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainHUD4B91D1E640BFFA16A025A69F39BAF090.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset'
+[2016.06.14-19.01.52:463][693]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset
+[2016.06.14-19.01.54:600][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.01.54:601][947]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:01:54 AM)
+[2016.06.14-19.01.54:601][947]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.01.54:602][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001475s)
+[2016.06.14-19.01.54:602][947]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.01.54:603][947]LogPlayLevel: PIE: World Init took: (0.000430s)
+[2016.06.14-19.01.54:603][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002055s)
+[2016.06.14-19.01.54:625][947]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.01.54:638][947]LogInit: FAudioDevice initialized.
+[2016.06.14-19.01.54:684][947]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.01.54:685][947]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.01.54
+[2016.06.14-19.01.54:685][947]LogWorld: Bringing up level for play took: 0.000997
+[2016.06.14-19.01.54:689][947]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.826
+[2016.06.14-19.02.15:414][408]BlueprintLog: New page: Compile BP_MainHUD
+[2016.06.14-19.02.15:499][408]BlueprintEditorCompileResults: Info [1089.21] Compile of BP_MainHUD successful! [in 85 ms] (/Game/Blueprints/Core/BP_MainHUD.BP_MainHUD)
+[2016.06.14-19.02.16:130][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainHUD" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset" SILENT=true
+[2016.06.14-19.02.16:147][477]LogSavePackage: Save=14.13ms
+[2016.06.14-19.02.16:147][477]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainHUD68B316A744284413C51830A90CBDF258.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset'
+[2016.06.14-19.02.16:148][477]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainHUD.uasset
+[2016.06.14-19.02.16:632][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.02.16:632][533]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:02:16 AM)
+[2016.06.14-19.02.16:632][533]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.02.16:633][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001366s)
+[2016.06.14-19.02.16:634][533]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.02.16:634][533]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2016.06.14-19.02.16:634][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001968s)
+[2016.06.14-19.02.16:657][533]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.02.16:669][533]LogInit: FAudioDevice initialized.
+[2016.06.14-19.02.16:711][533]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.02.16:712][533]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.02.16
+[2016.06.14-19.02.16:713][533]LogWorld: Bringing up level for play took: 0.000950
+[2016.06.14-19.02.16:716][533]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.854
+[2016.06.14-19.02.43:434][347]BlueprintLog: New page: Compile UI_MainParams
+[2016.06.14-19.02.43:533][347]BlueprintEditorCompileResults: Info [1117.25] Compile of UI_MainParams successful! [in 98 ms] (/Game/Blueprints/UI/UI_MainParams.UI_MainParams)
+[2016.06.14-19.02.43:697][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/UI_MainParams" FILE="D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset" SILENT=true
+[2016.06.14-19.02.43:708][357]LogSavePackage: Save=8.71ms
+[2016.06.14-19.02.43:708][357]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/UI_MainParams81B8A13447E6447FE65BBAACBA9B155F.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset'
+[2016.06.14-19.02.43:708][357]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/UI/UI_MainParams.uasset
+[2016.06.14-19.02.44:535][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.02.44:535][423]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:02:44 AM)
+[2016.06.14-19.02.44:535][423]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.02.44:536][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001506s)
+[2016.06.14-19.02.44:537][423]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.02.44:537][423]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2016.06.14-19.02.44:537][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002094s)
+[2016.06.14-19.02.44:559][423]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.02.44:572][423]LogInit: FAudioDevice initialized.
+[2016.06.14-19.02.44:618][423]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.02.44:619][423]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.02.44
+[2016.06.14-19.02.44:619][423]LogWorld: Bringing up level for play took: 0.000942
+[2016.06.14-19.02.44:621][423]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.759
+[2016.06.14-19.02.59:022][ 30]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-19.02.59:201][ 30]BlueprintEditorCompileResults: Info [1132.91] Compile of BP_Weapon successful! [in 179 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-19.03.53:903][329]BlueprintLog: New page: Compile BP_MainCharacter
+[2016.06.14-19.03.54:000][329]BlueprintEditorCompileResults: Info [1187.71] Compile of BP_MainCharacter successful! [in 96 ms] (/Game/Blueprints/Core/BP_MainCharacter.BP_MainCharacter)
+[2016.06.14-19.03.56:858][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/BP_MainCharacter" FILE="D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset" SILENT=true
+[2016.06.14-19.03.56:892][665]LogSavePackage: Save=30.84ms
+[2016.06.14-19.03.56:892][665]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_MainCharacterF6FF89DD4031F95460F535B3ECCB4DEA.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset'
+[2016.06.14-19.03.56:893][665]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/Core/BP_MainCharacter.uasset
+[2016.06.14-19.03.56:895][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
+[2016.06.14-19.03.56:911][665]LogSavePackage: Save=14.80ms
+[2016.06.14-19.03.56:911][665]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_Weapon778EADDE4E8DB379361896A27029BEDB.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
+[2016.06.14-19.03.56:912][665]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
+[2016.06.14-19.03.57:685][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.03.57:686][748]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:03:57 AM)
+[2016.06.14-19.03.57:686][748]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.03.57:687][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001541s)
+[2016.06.14-19.03.57:688][748]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.03.57:688][748]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2016.06.14-19.03.57:688][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002174s)
+[2016.06.14-19.03.57:713][748]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.03.57:726][748]LogInit: FAudioDevice initialized.
+[2016.06.14-19.03.57:771][748]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.03.57:772][748]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.03.57
+[2016.06.14-19.03.57:772][748]LogWorld: Bringing up level for play took: 0.000942
+[2016.06.14-19.03.57:774][748]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.087
+[2016.06.14-19.06.06:064][481]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-19.06.06:191][481]BlueprintEditorCompileResults: Info [1319.91] Compile of BP_Weapon successful! [in 127 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-19.06.06:595][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
+[2016.06.14-19.06.06:616][523]LogSavePackage: Save=19.59ms
+[2016.06.14-19.06.06:616][523]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_Weapon60781DAF44ED706D34F90E919FAA8E5E.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
+[2016.06.14-19.06.06:617][523]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
+[2016.06.14-19.06.07:851][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.06.07:851][665]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:06:07 AM)
+[2016.06.14-19.06.07:851][665]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.06.07:853][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001483s)
+[2016.06.14-19.06.07:853][665]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.06.07:853][665]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2016.06.14-19.06.07:854][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002092s)
+[2016.06.14-19.06.07:876][665]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.06.07:890][665]LogInit: FAudioDevice initialized.
+[2016.06.14-19.06.07:936][665]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.06.07:937][665]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.06.07
+[2016.06.14-19.06.07:937][665]LogWorld: Bringing up level for play took: 0.000946
+[2016.06.14-19.06.07:939][665]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.08
+[2016.06.14-19.06.19:939][ 69]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-19.06.20:064][ 69]BlueprintEditorCompileResults: Info [1333.78] Compile of BP_Weapon successful! [in 124 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-19.06.21:559][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.06.21:559][240]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:06:21 AM)
+[2016.06.14-19.06.21:559][240]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.06.21:561][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001549s)
+[2016.06.14-19.06.21:561][240]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.06.21:561][240]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2016.06.14-19.06.21:561][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002182s)
+[2016.06.14-19.06.21:584][240]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.06.21:598][240]LogInit: FAudioDevice initialized.
+[2016.06.14-19.06.21:644][240]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.06.21:645][240]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.06.21
+[2016.06.14-19.06.21:645][240]LogWorld: Bringing up level for play took: 0.000957
+[2016.06.14-19.06.21:647][240]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.211
+[2016.06.14-19.07.19:739][457]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-19.07.19:835][457]BlueprintEditorCompileResults: Info [1393.55] Compile of BP_Weapon successful! [in 96 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-19.07.20:926][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.14-19.07.20:927][581]PIE: New page: PIE session: Untitled_1 (Jun 15, 2016, 1:07:20 AM)
+[2016.06.14-19.07.20:927][581]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.06.14-19.07.20:928][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001501s)
+[2016.06.14-19.07.20:929][581]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.14-19.07.20:929][581]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2016.06.14-19.07.20:929][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002128s)
+[2016.06.14-19.07.20:953][581]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-19.07.20:965][581]LogInit: FAudioDevice initialized.
+[2016.06.14-19.07.21:011][581]LogWorld: Game class is 'BP_FPSMode_C'
+[2016.06.14-19.07.21:012][581]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.06.14-22.07.21
+[2016.06.14-19.07.21:012][581]LogWorld: Bringing up level for play took: 0.001075
+[2016.06.14-19.07.21:014][581]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.843
+[2016.06.14-19.07.57:284][776]BlueprintLog: New page: Compile BP_Weapon
+[2016.06.14-19.07.57:380][776]BlueprintEditorCompileResults: Info [1431.10] Compile of BP_Weapon successful! [in 96 ms] (/Game/Blueprints/BP_Weapon.BP_Weapon)
+[2016.06.14-19.07.57:927][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Weapon" FILE="D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset" SILENT=true
+[2016.06.14-19.07.57:950][835]LogSavePackage: Save=20.12ms
+[2016.06.14-19.07.57:950][835]LogSavePackage: Moving 'D:/UEProjects/project_panties/Saved/BP_WeaponA180F2CF44E8BA66D9D9C9AFCC7CD3BA.tmp' to 'D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset'
+[2016.06.14-19.07.57:951][835]LogSavePackage:Display: Finished SavePackage D:/UEProjects/project_panties/Content/Blueprints/BP_Weapon.uasset
+[2016.06.14-19.13.21:832][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.14-19.13.21:881][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.14-19.13.21:927][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.14-19.13.22:134][956]Cmd: QUIT_EDITOR
+[2016.06.14-19.13.22:185][956]LogExit: Preparing to exit.
+[2016.06.14-19.13.22:981][956]LogExit: Editor shut down
+[2016.06.14-19.13.22:981][956]LogExit: Transaction tracking system shut down
+[2016.06.14-19.13.23:113][956]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.14-19.13.23:113][956]LogExit: Object subsystem successfully closed.
+[2016.06.14-19.13.23:125][956]LogD3D11RHI: Shutdown
+[2016.06.14-19.13.23:125][956]LogD3D11RHI: CleanupD3DDevice
+[2016.06.14-19.13.23:142][956]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module SequencerWidgets (215)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.06.14-19.13.23:166][956]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.06.14-19.13.23:167][956]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.06.14-19.13.23:168][956]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.06.14-19.13.23:168][956]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.06.14-19.13.23:168][956]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.06.14-19.13.23:168][956]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.06.14-19.13.23:168][956]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.06.14-19.13.23:168][956]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.06.14-19.13.24:044][956]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.06.14-19.13.24:044][956]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.06.14-19.13.24:044][956]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.06.14-19.13.24:044][956]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.06.14-19.13.24:046][956]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.06.14-19.13.24:047][956]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.06.14-19.13.24:048][956]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.06.14-19.13.24:048][956]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.06.14-19.13.24:049][956]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.06.14-19.13.24:049][956]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.06.14-19.13.24:092][956]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.06.14-19.13.24:092][956]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.06.14-19.13.24:093][956]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.06.14-19.13.24:094][956]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.06.14-19.13.24:094][956]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.06.14-19.13.24:094][956]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.06.14-19.13.24:094][956]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.06.14-19.13.24:095][956]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.06.14-19.13.24:095][956]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.06.14-19.13.24:095][956]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.06.14-19.13.24:096][956]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.06.14-19.13.24:096][956]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.06.14-19.13.24:097][956]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.06.14-19.13.24:216][956]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.06.14-19.13.24:216][956]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.14-19.13.24:217][956]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.14-19.13.24:218][956]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.14-19.13.24:219][956]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.06.14-19.13.24:219][956]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.06.14-19.13.24:219][956]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.06.14-19.13.24:321][956]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.06.14-19.13.24:322][956]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.06.14-19.13.24:322][956]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.14-19.13.24:323][956]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.06.14-19.13.24:324][956]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.06.14-19.13.24:324][956]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.06.14-19.13.24:324][956]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.06.14-19.13.24:324][956]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.06.14-19.13.24:324][956]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.06.14-19.13.24:326][956]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.06.14-19.13.24:326][956]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.06.14-19.13.24:326][956]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.06.14-19.13.24:326][956]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.06.14-19.13.24:326][956]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.06.14-19.13.24:326][956]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.06.14-19.13.24:327][956]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.06.14-19.13.24:463][956]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.14-19.13.24:463][956]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.14-19.13.24:463][956]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.14-19.13.24:463][956]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.06.14-19.13.24:554][956]LogDerivedDataCache: Shutdown
+[2016.06.14-19.13.24:554][956]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.06.14-19.13.24:554][956]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.14-19.13.24:554][956]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.14-19.13.24:554][956]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.14-19.13.24:555][956]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.14-19.13.29:363][956]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.14-19.13.29:383][956]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.14-19.13.29:384][956]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.14-19.13.29:384][956]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.14-19.13.29:384][956]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.14-19.13.29:384][956]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.14-19.13.29:384][956]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.14-19.13.29:389][956]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.14-19.13.29:390][956]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.14-19.13.29:390][956]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.14-19.13.29:415][956]LogExit: Exiting.
+[2016.06.14-19.13.29:451][956]Log file closed, 06/14/16 22:13:29
